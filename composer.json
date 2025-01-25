@@ -1,0 +1,23 @@
+{
+    "name": "gestor_tareas",
+    "description": "Gestor de Tareas - Proyecto PHP",
+    "type": "project",
+    "require": {
+        "fpdf/fpdf": "^1.82"  // Se está utilizando FPDF para generación de PDFs
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Config\\": "config/"
+        }
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "echo 'Instalación completada. Las dependencias se han instalado correctamente.'"
+        ]
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist"
+    }
+}
