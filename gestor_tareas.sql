@@ -20,7 +20,9 @@ SET time_zone = "+00:00";
 --
 -- Base de datos: `gestor_tareas`
 --
+CREATE DATABASE gestor_tareas;
 
+USE gestor_tareas;
 -- --------------------------------------------------------
 
 --
